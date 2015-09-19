@@ -1,0 +1,13 @@
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+
+.navbar-collapse.collapse {
+    text-align: center; /* Set this */
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}

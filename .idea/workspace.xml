@@ -2,124 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604ea1c4-5326-474b-ae77-578d60783e00" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\_config.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\angularicons\angularicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\angularicons\angularicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\angularicons\angularicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\angularicons\angularicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\css\bootflat.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\css\bootflat.css.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\css\bootflat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\img\check_flat\default.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\img\check_flat\default.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\js\icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\js\jquery.fs.selecter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\js\jquery.fs.stepper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_accordion.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_breadcrumb.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_button_group.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_calendar.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_checkbox_radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_form.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_jumbotron.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_label_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_media_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_pager.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_panel.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_pill.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_pricing.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_selecter.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_stepper.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_tab.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_thumbnail.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_timeline.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bootflat\scss\bootflat\_well.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker-blue.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker-gray.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker-green.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker-pink.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker-purple.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker-red.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker-yellow.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\color-picker.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\css\site.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\css\site.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\favicon_16.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\free-psd.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\getting-started.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\google45b338b882fada75.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\Jumbotron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\ascii-logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\bootflat-ui-kit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\design.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\divider.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\fast.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\feature-bootstrap.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\feature-css.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\feature-lightweight.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\feature-mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\footer-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\github.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\index.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\logo-index.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\photo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\photo-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\photo-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\photo-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\prototyping.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\share.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\thumbnail-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\thumbnail-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\thumbnail-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\thumbnail-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\together.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\img\wild_flowers.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\js\application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\js\html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\js\jquery-1.10.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\js\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\js\site.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\js\site.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Aaron\WebstormProjects\Person-Website\bootflat.github.io-master\sitemap.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/AY.css" afterPath="$PROJECT_DIR$/css/AY.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Person-Website.iml" afterPath="$PROJECT_DIR$/.idea/Person-Website.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Person-Website.iws" />
@@ -141,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.078612715">
+              <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -157,18 +43,18 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4376.1924">
-              <caret line="6801" column="0" selection-start-line="6801" selection-start-column="0" selection-end-line="6801" selection-end-column="0" />
+            <state vertical-scroll-proportion="2928.0">
+              <caret line="2277" column="20" selection-start-line="2277" selection-start-column="18" selection-end-line="2277" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AY.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AY.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/AY.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23583815">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -208,10 +94,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -255,20 +141,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Person-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Person-Website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -280,6 +152,9 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -332,6 +207,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="604ea1c4-5326-474b-ae77-578d60783e00" name="Default" comment="" />
@@ -342,10 +220,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -363,6 +241,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -407,30 +293,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/github.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/AY.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4376.1924">
-          <caret line="6801" column="0" selection-start-line="6801" selection-start-column="0" selection-end-line="6801" selection-end-column="0" />
+        <state vertical-scroll-proportion="2928.0">
+          <caret line="2277" column="20" selection-start-line="2277" selection-start-column="18" selection-end-line="2277" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.078612715">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/AY.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23583815">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>

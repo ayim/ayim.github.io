@@ -3,6 +3,10 @@ body {
     font-family: "Titillium Web", sans-serif;
     font-size: 18px;
 }
+/* Center navbar objects */
+.navbar-collapse.collapse {
+    text-align: center; /* Set this */
+}
 .navbar-nav {
     display: inline-block;
     float: none;
@@ -39,6 +43,10 @@ body {
     border-top-width: 1px;
     border-top-style: solid;
     border-top-color: #00B5B5;
+}
+
+.navbar-collapse.collapse {
+    text-align: center; /* Set this */
 }
 
 .widget-link {

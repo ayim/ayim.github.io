@@ -21,6 +21,29 @@ body {
     color: #000000;
     padding-right: 0px;
 }
+/* NavBar UX*/
+.navbar-default .navbar-nav > li > a {
+    transition-property: color, border-color;
+    transition-delay: 0s, 0s, 0s;
+    transition-duration: 0.15s, 0.5s;
+    transition-timing-function: ease, ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #F1654C;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #F1654C;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #00B5B5;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #00B5B5;
 }
 
 .navbar-collapse.collapse {

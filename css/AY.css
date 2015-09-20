@@ -52,4 +52,7 @@ body {
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
+.widget-link {
+    height: 20px;
+    width: auto;
 }

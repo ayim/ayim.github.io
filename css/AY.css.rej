@@ -1,0 +1,14 @@
+diff a/css/AY.css b/css/AY.css	(rejected hunks)
+@@ -10,3 +11,12 @@
++/* General Customizations */
++body {
++    font-family: "Titillium Web", sans-serif;
++    font-size: 18px;
++}
++/* Center navbar objects */
++.navbar-collapse.collapse {
++    text-align: center; /* Set this */
++}
+ .navbar-nav {
+     display: inline-block;
+     float: none;

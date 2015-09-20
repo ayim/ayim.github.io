@@ -12,6 +12,16 @@ body {
     float: none;
     margin: 0;
 }
+/* Adjust vertical position of navbar */
+.container-fluid {
+    margin-bottom: -5px;
+}
+/* Adjustments for logo */
+.navbar-default .navbar-brand {
+    color: #000000;
+    padding-right: 0px;
+}
+}
 
 .navbar-collapse.collapse {
     text-align: center; /* Set this */

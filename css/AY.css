@@ -53,3 +53,20 @@ body {
     height: 20px;
     width: auto;
 }
+
+.jumbotron{
+    background-image:url(../img/car_background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.name{
+    font-size: 54px;
+    color: white;
+}
+
+.descriptor{
+    font-size:27px;
+    color:white;
+}
+}

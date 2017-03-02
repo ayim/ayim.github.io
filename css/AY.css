@@ -54,10 +54,15 @@ body {
     width: auto;
 }
 
+
 .jumbotron{
-    background-image:url(../img/mtl_background.jpg);
-    background-size: cover;
     height: 100vh;
+    background-image:url(../img/nyc_background.jpg) !important;
+    background-size: cover;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+
+    display: flex;
+    align-items: center;
 }
 
 .name{
@@ -93,6 +98,14 @@ body {
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-play-state: running;
+}
+
+.row.arrow{
+    position: absolute;
+    bottom: 30px;
+    margin-bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
 }
 
 @-webkit-keyframes drop	{

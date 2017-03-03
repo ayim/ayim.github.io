@@ -153,3 +153,17 @@ body {
     30%  { top:10px; opacity: 1;}
     100% { top:25px; opacity: 0;}
 }
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.jumbolinks{
+    margin-top: 2vh;
+}
+
+.jumbolinks a{
+    padding: .3vh .25vw;
+    font-size: 1.4em;
+}

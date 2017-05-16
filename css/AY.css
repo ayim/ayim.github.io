@@ -1,169 +1,229 @@
 /* General Customizations */
-body {
-    font-family: "Lato", sans-serif;
-    font-size: 18px;
-}
-/* Center navbar objects */
-.navbar-collapse.collapse {
-    text-align: center; /* Set this */
-}
-.navbar-nav {
-    display: inline-block;
-    float: none;
-}
-/* Adjust vertical position of navbar */
-.container-fluid {
-    margin-bottom: -5px;
-}
-/* Adjustments for logo */
-.navbar-default .navbar-brand {
-    color: #000000;
-    padding-right: 0px;
-}
-/* NavBar UX*/
-.navbar-default .navbar-nav > li > a {
-    transition-property: color, border-color;
-    transition-delay: 0s, 0s, 0s;
-    transition-duration: 0.15s, 0.5s;
-    transition-timing-function: ease, ease;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #F1654C;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #F1654C;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #00B5B5;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: #00B5B5;
-}
-
-.navbar-collapse.collapse {
-    text-align: center; /* Set this */
-}
-
-.widget-link {
-    height: 20px;
-    width: auto;
-}
-
-
-.jumbotron:before {
-    content: "";
-    position: fixed;
-    left: -7px;
-    top:-7px;
-    bottom:-7px;
-
-    display: inline-block;
-    background: linear-gradient(
-            rgba(20,20,20, .45),
-            rgba(20,20,20, .45)),
-    url(../img/nyc_background.jpg);
-
-    background-size:cover;
-    width: 101%;
-    height: 100%;
-
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px) ;
-}
-
-
-.jumbotron{
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-}
-
-.vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-
-    display: flex;
-    align-items: center;
-}
-
-.name{
-    font-size: 54px;
-    color: white;
-    font-weight: 700;
-}
-
-.descriptor{
-    font-size:27px;
-    color:white;
+*{
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
-.down-arrow {
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FA6900;
+}
+
+h3{
+    font-size: 18px;
+    color: #FA6900
+}
+
+p {
+    font-size: 14px;
+}
+
+.descriptor {
+    font-size: 18px;
+}
+
+.name{
+    color: #175CE5;
+    font-size: 20px;
+}
+
+.descriptor{
+    color: black;
+    font-size: 18px;
+}
+
+.btn-default{
+    border: 3px solid rgb(23, 92, 229);
+    padding: 8px;
+}
+
+.item-context{
+    color:#FA6900;
+}
+
+.item_layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity .1s;
+    opacity: 0.6;
+    background-color: black;
+}
+
+.item_layer:hover{
+    opacity: 0.8;
+}
+
+.item-title{
+    color: white;
+    font-weight: 600;
+    display: block;
+    font-size: 18px;
+}
+
+.navbar{
+    margin-bottom:0;
+    color: white;
+}
+
+.jumbotron{
+    margin-bottom:0;
+    background-color: white;
+    color: white;
+    align-items: center;
+}
+
+.jumbotron.vertical-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid .container-fluid .row .col-md-4 {
+    height: 40vh;
+    border: 10px white;
+    text-align: left;
+    background-size: contain;
+    background-color: #BB99FF;
+}
+
+.grid .container-fluid .row .col-md-4 .item-text{
+    bottom: 5vh;
+    position: absolute;
+    text-align: left;
+    color: white !important;
+    pointer-events: none;
+}
+
+.grid .container-fluid .row .col-md-4{
+    display:block;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+}
+
+.grid .container-fluid .row:nth-child(1) .col-md-4:nth-child(1) {
+    margin: 0 auto;
+    background-position: center;
+    background-image: url("../static/img/trythis.png");
+    background-size: cover;
+}
+
+.grid .container-fluid .row:nth-child(1) .col-md-4:nth-child(2) {
+    margin: 0 auto;
+    background-position: center;
+    background-image: url("../static/img/appa.png");
+    background-size: cover;
+}
+
+.grid .container-fluid .row:nth-child(1) .col-md-4:nth-child(3) {
+    margin: 0 auto;
+    background-position: center;
+    background-image: url("../static/img/trythis.png");
+    background-size: cover;
+}
+
+.grid .container-fluid .row:nth-child(2) .col-md-4:nth-child(1) {
+    margin: 0 auto;
+    background-position: center;
+    background-image: url("../static/img/learning.png");
+    background-size: cover;
+}
+
+.grid .container-fluid .row:nth-child(2) .col-md-4:nth-child(2) {
+    margin: 0 auto;
+    background-position: center;
+    background-image: url("../static/img/cadets.jpg");
+    background-size: cover;
+}
+
+.grid .container-fluid .row:nth-child(2) .col-md-4:nth-child(3) {
+    margin: 0 auto;
+    background-position: center;
+    background-image: url("../static/img/photo.jpg");
+    background-size: cover;
+}
+
+.links{
+    padding-left: 0;
+}
+
+.links_icon{
+    color: rgb(200,200,200);
+    text-decoration: none;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    -webkit-transition: color .1s ease;
+    -moz-transition: color .1s ease;
+    -ms-transition: color .1s ease;
+    -o-transition: color .1s ease;
+    transition: color .1s ease;
+}
+
+.links_icon:hover{
+    color: #175CE5;
+}
+
+/*CSS for individual projects*/
+.jumbotron.item1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../static/img/trythis.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.jumbotron.item2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../static/img/appa.png);
+    background-size: cover;
+    background-position: 50% 71%;
+    height: 50vh;
+}
+
+.jumbotron.item3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../static/img/appa.png);
+    background-size: cover;
+    background-position: 50% 71%;
+    height: 50vh;
+}
+
+.jumbotron.item4{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../static/img/learning.png);
+    background-size: cover;
+    background-position: 50% 35%;
+    height: 50vh;
+}
+
+.jumbotron.item5{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../static/img/cadets.jpg);
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 50vh;
+}
+
+.jumbotron.item6{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../static/img/appa.png);
+    background-size: cover;
+    background-position: 50% 71%;
+    height: 50vh;
+}
+
+
+h1.item-title{
+    color: white;
+}
+
+.organization{
+    color: #175CE5;
     text-align: center;
 }
 
-.down-arrow span{
-    position:relative;
-    color: #ffffff;
-    -webkit-animation-name: drop;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-delay: 0s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-    animation-name: drop;
-    animation-duration: 1.5s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-}
-
-.row.arrow{
-    position: absolute;
-    bottom: 30px;
-    margin-bottom: 10px;
-    left: 50%;
-    margin-left: -50px;
-}
-
-@-webkit-keyframes drop	{
-    0%   { top:-10px;  opacity: 0;}
-    30%  { top:10px; opacity: 1;}
-    100% { top:25px; opacity: 0;}
-}
-
-@keyframes drop	{
-    0%   { top:-10px;  opacity: 0;}
-    30%  { top:10px; opacity: 1;}
-    100% { top:25px; opacity: 0;}
-}
-
-a{
-    color:white;
-    text-decoration: none;
-}
-
-.jumbolinks{
-    margin-top: 2vh;
-}
-
-.jumbolinks a{
-    padding: .3vh .25vw;
-    font-size: 1.4em;
+.action{
+    background-color: #175CE5;
+    color: white;
 }

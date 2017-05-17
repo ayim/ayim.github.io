@@ -73,6 +73,10 @@ p {
     color: white;
 }
 
+.icon-bar{
+    background-color: #175CE5;
+}
+
 .jumbotron{
     margin-bottom:0;
     background-color: white;

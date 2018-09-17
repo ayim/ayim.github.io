@@ -1,0 +1,562 @@
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Aaron Yim - Yelp Case Study</title>
+    <meta name="description" content="I'm a engineer, PM, and designer studying at UWaterloo."/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32sq.png">
+    <link href="https://cdn.jsdelivr.net/npm/zoom-vanilla.js/dist/zoom.css" rel="stylesheet">
+</head>
+<style>
+    .bg-grey{
+        background-color: #f5f5f5;
+    }
+    .container{
+        width: 700px;
+        padding-bottom: 52px;
+    }
+    .superheader{
+        font-size: 32px;
+        margin-top: 48px;
+        margin-bottom: 0px;
+    }
+    .header{
+        font-size: 18px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        text-align: left;
+        font-weight: 600;
+        color: #333333;
+    }
+    .subheader{
+        font-weight: 500;
+        margin-top: 24px;
+        margin-bottom: 0px;
+        color: #0073bb;
+        line-height:1.7;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .container-full-bg{
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-position: center;
+        background-image: url(static/img/Yelp-Butler.png)
+    }
+    .whitespace{
+        height: 40px;
+    }
+    .body{
+        line-height:1.7;
+        font-size: 16px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+    .conclusion{
+        margin-top: 24px;
+        margin-bottom: 36px;
+        font-family: serif;
+         font-style: italic;
+         font-size: 17px;
+     }
+    li{
+        margin-top: 0px;
+        line-height:1.7;
+        font-size: 16px;
+    }
+    ol, ul{
+        padding-left: 15px;
+    }
+    .img-fluid{
+        margin-top: 8px;
+    }
+</style>
+<body>
+    <div class="container-full-bg">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="superheader">
+                    Redefining Yelp
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    The Challenge
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="body">
+                    In 2005, finding local businesses through Yelp felt like magic. Today, this magic has largely been
+                    captured and improved upon by Google at the top of every search result.
+                </p>
+                <p class="body">
+                    As a part of a pre-interview assignment for Yelp, I took on the challenge of re-imagining what the platform
+                    could do for users with the goal of increase stickiness.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    My Role
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="body">
+                    Over a week, I explored four types of insights to formulate a solution: user, market, industry, and
+                    technology. A UI prototype and potential data science and business implementations were also created.</div>
+                </p>
+        </div>
+    </div>
+    <div class="bg-grey">
+    <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="superheader">Assessing the Problem</p><br/>
+                        </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">User Insight</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                    <p class="header">Star ratings and dollar signs don't capture social factors important to users.</p>
+                    <p class="body">
+                        While star ratings and dollar signs are constraints, they don't consider what the user prefers
+                        as a human.
+                    </p>
+                    <p class="body">
+                        Do the user tend to prefer a cozy or energetic ambience? Are they accustomed to Michelin
+                        starred cuisine or are they comfortable with fast food? Do they feel more at home in casual or formal environments?
+                    </p>
+                    <p class="conclusion"><b>Takeaway:</b> Yelp can better fulfill users' discovery goals by accounting for social factors.</b> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">Market Insight</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">Segment leaders provide personalized experiences.</p>
+                <p class="body">
+                    <u>Spotify</u> is #1 in music streaming subscribers.<br/>
+                    Their recommendations engine has increased the diversity of artists listened by by 37% since 2014.
+                </p>
+                <p class="body">
+                    <u>Facebook</u> is used by 50% of all internet users.<br/>
+                    Their personalized news feed is the #1 most interacted with feature, accounting for 85% of the
+                    company's revenue.
+                </p>
+                <p class="conclusion"><b>Takeaway:</b> Yelp should personalize recommendations and search results to solidify it’s position as a market leader.</b> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">Technology Insight</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">Yelp's reliance on web users leaves it vulnerable to competitors.</p>
+                <p class="body">
+                    According to Forrester's US Consumer Technographics Behavioural Study, "consumers spent 85% of their
+                    time on smartphones in native apps."
+                </p>
+                <p class="body">
+                    <u>Mobile Growth</u> accounts for 87% of user growth since 2015.<br/>
+                    79% of all Yelp searches are now made on a mobile device.
+                </p>
+                <p class="body">
+                    <u>Mobile App Reach</u> only accounts for 29% of all Yelp's mobile users.<br/>
+                    This leaves 71% of Yelp's mobile users vulnerable to web competitors.
+                </p>
+                <p class="conclusion"><b>Takeaway:</b> Yelp needs to find a compelling proposition for its app in order to protect against dominant web competitors.</b> </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">Industry Insight</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">Yelp is the only platform that combines discovery and transactions.</p>
+                <p class="body">
+                    Since its competitors have the advantage of focusing on a smaller
+                    domain, Yelp needs to leverage its discovery data to drive transactions.
+                </p>
+                <p class="body">
+                    <u>Discovery:</u> Reviews and Business Information<br/>
+                    Google Maps/Places, TripAdvisor
+                </p>
+                <p class="body">
+                    <u>Transactions:</u> Deliveries and Reservations<br/>
+                    OpenTable, UberEats, GrubHub
+                </p>
+                <p class="conclusion"><b>Takeaway:</b>
+                    Yelp needs to find synergies between discovery and transactions to avoid being outmaneuvered by specialized competitors.</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    <div class="superheader">Finding a Solution</div>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    exploring a strategy
+                </p>
+                <p class="body">
+                    By combining our exploration with information from Yelp's
+                    financial filings, here is how we can translate Yelp's vulnerabilities into a strategy.
+                </p>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Business Risks</th>
+                        <th scope="col">Strategy</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td scope="row">Unhelpful/irrelevant recommendations</td>
+                        <td>Provide recommendations that suit the person, place, and time.</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Increasing Competition</td>
+                        <td>Leverage Yelp's advantage as the only end to end platform for food discovery and purchasing</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Reliance on Web and Search</td>
+                        <td>Provide a compelling reason for users to rely on Yelp's mobile apps</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p class="subheader">
+                    Reframing the problem.
+                </p>
+                <p class="body">
+                    How can Yelp recapture the magic of business discovery with today's technology in a way that makes
+                    sense for the business?
+                </p>
+        </div>
+    </div>
+    </div>
+<div style="background-color:#d32323">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="superheader" style="color:#ffffff">
+                    Introducing Yelp Butler.
+                </p>
+                <p class="body">
+                <ol>
+                    <li style="color: white;">Contextual, personalized recommendations to drive discovery and ad revenue</li>
+                    <li style="color: white;">Genuinely helpful prompts to drive transaction revenue</li>
+                    <li style="color: white;">Exclusivity to native mobile apps.</li>
+                </ol>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="superheader">
+                Discovery
+            </p>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    Contextual, Personalized recommendations
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">
+                    The right place for the time, weather, and person.
+                </p>
+                <p class="body">
+                    Whether it's ice cream on a sunny afternoon or a cozy date spot for Friday night, Yelp Butler's recommendations
+                    reduces the user pain of having to search multiple sources to find a good fit for them.
+                </p>
+                <p class="conclusion">
+                    <u>Opportunity</u>: By fostering reliance on Yelp's recommendations, this increases stickiness and isolates users from
+                    web search competitors.
+                </p>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <img src="static/img/yelp_discovery.png" class="img-fluid" data-action="zoom"/>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="bg-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="superheader">
+                    Ad Revenue
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    Microtargeted ads
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">
+                    Combining personalized recommendations with rich visuals.
+                </p>
+                <p class="body">
+                    With more accurate recommendations combined with larger UI cards, microtargeted ad campaigns have an
+                    opportunity to reduce their cost per click while engaging users in a more visual way.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="text-center">
+                    <img src="static/img/yelp_ad.png" class="img-fluid" data-action="zoom"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="superheader">
+                    Transactions
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    Genuinely helpful prompts.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">
+                    Driving trasaction revenue by reducing ambiguity.
+                </p>
+                <p class="body">
+                    Whether it's a restaurant reservation, your favourite takeout order on the way home, or redeeming a
+                    promotion, Yelp Butler reduces ambiguity by keeping the call to action visible. This helps users
+                    accomplish their tasks in one-tap.
+                </p>
+                <p class="conclusion">
+                    <u>Opportunity</u>: As what would be first to market as the only concierge style trasaction platform, Yelp Butler reduces
+                    user ambiguity of next steps while increasing transaction revenue, win-win.
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <img src="static/img/yelp_transaction.png" class="img-fluid" data-action="zoom"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<div style="background-color: #f5f5f5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="superheader">
+                    Implementation
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    Potential Tech Implementation
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">
+                    Classifying businesses using existing reviews.
+                </p>
+                <p class="body">
+                    <ul>
+                        <li>Determine features/lables for classification dimensions</li>
+                        <li>Utlize NTLK dictionaries of words for each dimension</li>
+                        <li>Tune NLP model via supervised ML applied to reviews & additional metadata</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">
+                    Classifying user preferences through search behaviour and reviews.
+                </p>
+                <p class="body">
+                <ul>
+                    <li>Build SVM model with selected dimensions</li>
+                    <li>Monitor click logs to predict user preferences</li>
+                    <li>Compare user reviews to restaurant classification to determine preferences</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="header">
+                    Generating suggestions by comparing classifications and adding context.
+                </p>
+                <p class="body">
+                <ul>
+                    <li>Setup MySQL database in AWS RDS</li>
+                    <li>Combine user preferences and business classification with context (time/date/weather)</li>
+                    <li>Prompt user to evaluate recommendations</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="subheader">
+                Potential Business Implementation
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="header">
+                Soft launch to Yelp Elite to reward existing users.
+            </p>
+            <p class="body">
+            <ul>
+                <li>Rewarding esteemed members causes an exclusivity effect that can drive further growth</li>
+                <li>Yelp Elite users have a strong history of search and review data - increases confidence in
+                classification and prediction.</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="header">
+                Validating traction using growth metrics.
+            </p>
+            <p class="body">
+            <ul>
+                <li>Stickiness: DAU/MAU</li>
+                <li>Reach: Butler WAU/Yelp App WAU</li>
+                <li>Depth: DW Search Volume/Yelp App Search Volume</li>
+                <li>Retention: Butler week-over-week retention</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="header">
+                Gearing up for general availability with data collection and ad buys.
+            </p>
+            <p class="body">
+            <ul>
+                <li>Improve classification by prompting business owners to fill out "more business info" (i.e. attire, ambience
+                , noise level)</li>
+                <li>Provide incentive for data collection through free Butler ad credits.</li>
+                <li>Invite engaged business to create Yelp Butler exclusive promptions</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="superheader">Fini</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="subheader">
+                    Takeaways
+                </p>
+                <p class="body">In the end, this pre-interview assignment was not resulted in an interview with Yelp but
+                     also led to development of my data and design skillsets.</p>
+                <p class="subheader">
+                    Data Science
+                </p>
+                <p class="body">
+                   As a part of the research process for Yelp Butler, I also started DataCamp courses and am enrolled in
+                     a data mining course at UWaterloo to further develop my understanding of data science and various
+                     algorithms.
+                </p>
+                <p class="subheader">
+                    Design
+                </p>
+                <p class="body">
+                    For future projects, my frustrations with Photoshop during this process have prompted me to migrate
+                     to Sketch and more recently, Invision Studio for designing screens.<br/>
+                </p>
+            </div>
+        </div>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <p style="text-align: center">
+                    <span class="inactive-article"><a href="index.html">Home</a></span>
+                    <span class="active-article"><a href="yelp.html">Yelp Butler</a></span>
+                    <span class="inactive-article"><a href="index.html">UW Food Finder</a></span>
+                    <span class="inactive-article"><a href="index.html">About Me</a></span>
+                </p>
+            </div>
+        </div>
+        <div class="whitespace"></div>
+        <div class="whitespace"></div>
+    <script src="https://cdn.jsdelivr.net/npm/zoom-vanilla.js/dist/zoom-vanilla.min.js"></script>
+</body>

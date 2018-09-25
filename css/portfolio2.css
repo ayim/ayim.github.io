@@ -163,6 +163,7 @@ ol, ul{
     display: inline-block;
     color: #0073bb;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 /* add a empty string after the elment with class .slide-left-right */
 .action:after

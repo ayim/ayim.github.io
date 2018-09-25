@@ -148,6 +148,11 @@ ol, ul{
    margin-top: 36px;
 }
 
+.img-fluid-quadrant{
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
 .card{
     border: 0px;
 }

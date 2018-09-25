@@ -69,10 +69,10 @@
 .subheaderItem{
     font-weight: 500;
     margin-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     color: #d32323;
-    line-height:1.7;
-    font-size: 14px;
+    line-height:1.9;
+    font-size: 16px;
     text-transform: uppercase;
 }
 .subheader{
@@ -80,8 +80,8 @@
     margin-top: 32px;
     margin-bottom: 0px;
     color: #d32323;
-    line-height:1.7;
-    font-size: 14px;
+    line-height:1.9;
+    font-size: 16px;
     text-transform: uppercase;
 }
 .header{
@@ -110,6 +110,7 @@
     margin-top: 32px;
     margin-bottom: 36px;
     font-size: 16px;
+    line-height: 1.9;
 }
 .card{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -122,7 +123,7 @@
 }
 li{
     margin-top: 0px;
-    line-height:1.7;
+    line-height:1.9;
     font-size: 16px;
 }
 ol, ul{

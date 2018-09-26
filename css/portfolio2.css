@@ -72,7 +72,13 @@
         max-width: 576px;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 30px;
+    }
+}
+
+/*Reduce top padding for homepage hero for mobile devices of small vheight*/
+@media (max-height: 700px){
+    .container-hero{
+        padding-top: 16px;
     }
 }
 

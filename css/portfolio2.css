@@ -78,7 +78,7 @@
 /*Reduce top padding for homepage hero for mobile devices of small vheight*/
 @media (max-height: 700px){
     .container-hero{
-        padding-top: 16px;
+        padding-top: 0;
     }
 }
 
